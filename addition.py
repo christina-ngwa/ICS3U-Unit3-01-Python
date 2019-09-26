@@ -2,26 +2,26 @@
 
 # Created by: Christina Ngwa
 # Created on: September 2019
-# This program calculates the sum of two numbers
+# This program calculates the sum of two integers
 #   with user input
 
 
 def main():
 
-    # this function calculates the sum of two numbers
+    # this function calculates the sum of two integers
 
     # input
     print("Let's find the sum of two integers!")
     print("")
-    firstnumber = int(input("Enter the first number (integer): "))
-    secondnumber = int(input("Enter the second number (integer): "))
+    firstinteger = int(input("Enter the first number (integer): "))
+    secondinteger = int(input("Enter the second number (integer): "))
 
     # process
-    total = firstnumber + secondnumber
+    total = firstinteger + secondinteger
 
     # output
     print("")
-    print("{0} + {1} = {2}".format(firstnumber, secondnumber, total))
+    print("{0} + {1} = {2}".format(firstinteger, secondinteger, total))
 
 
 if __name__ == "__main__":
